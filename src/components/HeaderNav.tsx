@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router'
 import { motion } from 'motion/react'
 
+import './HeaderNav.css'
+
 export default function HeaderNav() {
     const navigate = useNavigate()
 
@@ -9,9 +11,9 @@ export default function HeaderNav() {
     function navToGuide() { navigate("/guide") }
 
     return (<>
-        <header>
+        <header className="header-nav">
             <p>Guess By Daylight</p>
-            <nav>
+            <nav className="header-nav-bar">
                 <motion.button className="nav-btn"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: .9 }}

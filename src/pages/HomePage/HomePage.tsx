@@ -8,6 +8,6 @@ export default function HomePage() {
 
     return (<>
         <HeaderNav />
-        <h1>This is the homepage!</h1>
+        <h1>Guess By Daylight</h1>
     </>)
 }
